@@ -15,7 +15,7 @@ public class WaitNotify {
     static Object lock = new Object();
 
     public static void main(String[] args) {
-
+        System.out.println("1");
     }
     static class Wait implements Runnable{
         @Override
